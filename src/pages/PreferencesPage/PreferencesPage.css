@@ -1,0 +1,68 @@
+.settings-container {
+    margin: 20px;
+  }
+  
+  .theme-selection {
+    margin-top: 20px;
+  }
+  
+  .theme-selection label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+  } 
+  
+ 
+
+
+.preferences-container {
+  display: flex; 
+ 
+  
+  height: 100vh; 
+  flex-direction: column; 
+  text-align: center; 
+} 
+
+
+.home-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 50px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px;
+}
+.home-button:hover{
+  background-color: #0056b3;
+}
+
+
+.delete-inactive-button{
+  background-color: rgb(254, 0, 0);
+  color: white;
+  border: none;
+  padding: 10px 50px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px;
+  width: auto;          
+  max-width: 300px;
+  margin-left: 470px;
+}
+.delete-inactive-button:hover{
+  background-color: #a74924;
+}
+
+
+
+
+  

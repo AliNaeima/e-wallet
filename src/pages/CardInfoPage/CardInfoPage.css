@@ -1,0 +1,100 @@
+.card-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+    padding: 20px;
+  }
+  
+  
+  .card-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; 
+    text-align: left; 
+  }
+  
+ 
+  .card-info input,
+  .card-info select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; 
+  }
+  
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px; 
+    margin-top: 20px;
+    margin-bottom: 30px; 
+  }
+  
+
+  .card-info button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; 
+  }
+  
+  .card-info button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .card-info .delete-button {
+    background-color: #e74c3c;
+    
+  }
+  
+  .card-info .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
+
+.card-info.visa, .card.visa {
+  background-color: #ff0000; 
+  color: white;
+}
+
+
+.card-info.mastercard, .card.mastercard {
+  background-color: #ff9800; 
+  color: white;
+}
+
+
+.card-info.american-express, .card.american-express {
+  background-color: #4caf50; 
+  color: white;
+}
+.home-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.home-button:hover {
+  background-color: #0056b3;
+}
+
+  
